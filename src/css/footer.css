@@ -1,0 +1,37 @@
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    margin-top: 120vh;
+    color: white;
+}
+
+#footer{
+    z-index: -1;
+    position: absolute;
+    top: 125vh;
+    height: auto;
+    margin-left: -5%;
+    padding-bottom: 5vh;
+    width: 110%;
+    rotate: 1deg;
+    background-color: #7769cd;
+    background-image: 
+    radial-gradient(#594e9a 7%, transparent 7%),
+    radial-gradient(#594e9a 7%, transparent 7%);
+    background-position: 0px 0px, 15px 15px;
+    background-size: 32px 32px;
+    background-color: #7769cd;
+  }
+
+
+#footercontent{
+    rotate: -1deg;
+    text-align: center;
+    margin: 5vh 10vw auto 10vw;
+    color: white;
+}
+

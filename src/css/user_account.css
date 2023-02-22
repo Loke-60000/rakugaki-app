@@ -1,0 +1,432 @@
+/* body{
+    margin-bottom: 10%;
+} */
+/* .user_banner_wrap{
+    width: 55vw;
+    height: 18.3vw;
+    background: #ebe7e2;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius:10px;
+    padding: 30px;
+    border-bottom: 1px solid #ebe7e2;
+    border-top: 1px solid #ebe7e2;
+    background-image: url('https://pbs.twimg.com/profile_banners/3289201891/1592532582/1500x500');
+    background-size: 100%;
+}
+
+
+.user_profile_pic{
+    width: 12vw;
+    height: 12vw;
+    min-width: 130px;
+    min-height: 130px;
+    border-radius: 100%;
+    margin: -5% auto;
+    background-color: black;
+    border: solid;
+    border-color: #ebe7e2;
+    border-width: 0.5vw;
+    background-image: url('/src/assets/LOKE.PNG');
+    background-size: 100%;
+}
+
+.user_info{
+    width: 30%;
+    min-width: 350px;
+    height: 25vh;
+    margin: 10vh auto;
+    text-align: center;
+    margin-bottom: -8vh;
+}
+
+.user_info h2{
+    opacity: 0.5;
+    font-size: 25px;
+}
+
+.user_info .edit_button{
+    margin: auto;
+    width: 200px;
+    background-color: #7769cd;
+    color: white;
+    border-radius: 25px;
+}
+
+.user_info p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1000px)  {
+    .user_banner_wrap{
+        width: 300vw;
+        height: 20vh;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+} */
+
+/* 
+#user{
+    position: absolute;   
+    margin-top: -5vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+
+#user_banner{
+    height: 35vh;
+    width: 70vw;
+    background-color: aqua;
+ 
+}
+
+#user_profile_pic{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 100%;
+    background-color: brown;
+    position: absolute;   
+    margin-top: 15vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+ */
+
+nav{
+    top: 0 !important;
+}
+
+ .test{
+    margin-top: 12vh;
+ }
+  
+  :root {
+    --color-1: #fefefd;
+    --color-2: #0f1419;
+    --color-3: #536471;
+    --color-4: #7768cd;
+    --color-5: rgba(15, 20, 25, 0.1);
+    --color-6: #7768cd;
+  }
+  
+  body {
+    font-family: Montserrat, sans-serif;
+    background-color: var(--color-1);
+    color: var(--color-2);
+  }
+  
+  .wrapper {
+    max-width: 620px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    filter: invert(4%) sepia(4%) saturate(6722%) hue-rotate(169deg)
+      brightness(99%) contrast(92%);
+  }
+  
+  .icon-frame {
+    padding: 8px;
+    min-width: 32px;
+    min-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(15, 20, 25, 0);
+    transition-duration: 0.5s;
+  }
+  
+  .icon-frame:hover {
+    border-radius: 50%;
+    background-color: var(--color-5);
+  }
+  
+  .account-header {
+    flex: 1;
+  }
+  
+  .account-name {
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+  
+  .account-name a {
+    text-decoration: none;
+    color: var(--color-2);
+  }
+  
+  .verified-badge {
+    margin-left: -5px;
+  }
+  
+  small {
+    color: var(--color-3);
+    line-height: 1;
+  }
+  
+  main {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .profilepicture {
+    position: relative;
+    display: flex;
+  }
+  
+  .account-banner {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .profile-pic-container {
+    max-width: 23%;
+    max-height: 23%;
+    position: absolute;
+    top: 68%;
+    left: 6%;
+  }
+  
+  .account-profile-picture {
+    width: 100%;
+    height: 100%;
+    border: 4px solid var(--color-1);
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  
+  .twitter-profile-picture:hover {
+    filter: brightness(0.9);
+    transform: scale(1.002);
+  }
+  
+  .profile-details {
+    padding: 6px 14px 14px 14px;
+  }
+  
+  nav {
+    padding: 6px 0 14px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .frame-cover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .profile-botton {
+    background-color: var(--color-2);
+    border: 1px solid var(--color-2);
+    border-radius: 9999px;
+    transition-duration: 0.5s;
+  }
+  
+  .profile-botton a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 21px;
+    font-weight: 800;
+    color: var(--color-1);
+  }
+  
+  .profile-botton:hover {
+    border: 1px solid var(--color-3);
+    background-color: var(--color-3);
+  }
+  
+  h1 {
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 900;
+  }
+  
+  .account-info {
+    margin-block: 15px;
+  }
+  
+  .info-container-1 {
+    margin-block: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    color: var(--color-3);
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  
+  .info-container-1 p {
+    white-space: nowrap;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  
+  .location {
+    letter-spacing: 1.5px;
+    font-size: 12px;
+  }
+  
+  .web-site a {
+    text-decoration: none;
+    color: var(--color-4);
+  }
+  
+  .info-icon {
+    filter: invert(38%) sepia(9%) saturate(878%) hue-rotate(164deg)
+      brightness(95%) contrast(90%);
+    position: relative;
+    bottom: 2px;
+  }
+  
+  .info-follow {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .info-follow span {
+    color: var(--color-3);
+  }
+  
+  .info-follow p {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    line-height: 0.8;
+  }
+  
+  .info-follow p:hover {
+    border-bottom: 1px solid var(--color-2);
+  }
+  
+  .tweets-nav {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .tweets-nav li {
+    flex: 1;
+    text-align: center;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  
+  .tweets-nav li div {
+    text-decoration: none;
+    padding: 0 16px;
+    width: 100%;
+    white-space: nowrap;
+    color: var(--color-3);
+    font-weight: 700;
+  }
+  
+  .tweets-nav li div p {
+    padding: 16px 0;
+    position: relative;
+    transition-duration: 0.2s;
+  }
+  
+  .tweets-nav li:hover {
+    background-color: var(--color-5);
+  }
+  
+  .tweets-nav li div p::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+    border-radius: 9999px;
+    position: absolute;
+    bottom: 0;
+    transition-duration: 0.2s;
+  }
+  
+  .tweets-nav li:focus div p {
+    color: var(--color-2);
+  }
+  
+  .tweets-nav li:focus div p::after {
+    background-color: var(--color-6);
+  }
+  
+  @media only screen and (max-width: 520px) {
+    .profile-pic-container {
+      max-width: 28%;
+      max-height: 28%;
+    }
+  
+    h1 {
+      margin-top: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .account-name {
+      font-size: 18px;
+    }
+  
+    small {
+      font-size: 12px;
+    }
+  
+    .profile-pic-container {
+      max-width: 28%;
+      max-height: 28%;
+    }
+  
+    h1 {
+      margin-top: 20px;
+    }
+  
+    .tweets-nav {
+      font-size: 15px;
+    }
+  
+    .tweets-nav li div {
+      padding: 0 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .account-name {
+      font-size: 16px;
+    }
+  
+    small {
+      font-size: 11px;
+    }
+  
+    .profile-pic-container {
+      max-width: 28%;
+      max-height: 28%;
+    }
+  
+    h1 {
+      margin-top: 15px;
+    }
+  
+    .tweets-nav {
+      font-size: 14px;
+    }
+  
+    .tweets-nav li div {
+      padding: 0 8px;
+    }
+  }

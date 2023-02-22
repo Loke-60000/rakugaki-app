@@ -1,0 +1,106 @@
+  body {
+    background-color: #786acf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  #background{
+    background-color: #786acf;
+    height: 100vh;  
+  }
+
+  #logodraw{
+    position: absolute;
+    height: 25%;
+    filter: 
+    drop-shadow(-1px -1px 0px white) 
+    drop-shadow(2px -1px 0px white) 
+    drop-shadow(2px 2px 0px white)
+    drop-shadow(-1px 2px 0px white)
+  }
+
+  #canvas {
+    border: 5px solid #4b4282; /* Change the border color to match the color scheme of a Nintendo website */
+    margin: 50px auto;
+    display: block;
+  }
+
+  #controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+  }
+
+  .tool {
+    width: 80px;
+    height: 80px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #d9d9d9;
+    color: white;
+    background-position: center;
+  } 
+  
+  #pen{
+    background-image: url(../assets/pen_icon.png);
+  }
+
+  #eraser{
+    background-image: url(../assets/eraser_icon.png);
+  }
+
+  #small{
+    background-image: url(../assets/small_size_icon.png);
+  }
+
+  #medium{
+    background-image: url(../assets/medium_size_icon.png);
+  }
+
+  #large{
+    background-image: url(../assets/big_size_icon.png);
+  }
+  #clear{
+    background-image: url(../assets/clear_icon.png);
+  }
+  #undo{
+    background-image: url(../assets/undo.png);
+  }
+  #redo{
+    background-image: url(../assets/redo.png);
+  }
+
+  #undo, #redo{ 
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+  }
+  #undo:hover, #redo:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  #download {
+    font-size: 15px;
+    margin: 10px;
+    padding: 1px 10px;
+    background-color: #9482ff;
+    border: none;
+    border-radius: 10px;
+    background-image: url(../assets/download_button.png);
+  }
+  #download:hover {
+    background-color: #fff;
+    color: #00bfff;
+    cursor: pointer;
+  }
+

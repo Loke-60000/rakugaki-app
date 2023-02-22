@@ -1,0 +1,69 @@
+/* body{
+    margin-bottom: 10%;
+} */
+/* .user_banner_wrap{
+    width: 55vw;
+    height: 18.3vw;
+    background: #ebe7e2;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius:10px;
+    padding: 30px;
+    border-bottom: 1px solid #ebe7e2;
+    border-top: 1px solid #ebe7e2;
+    background-image: url('https://pbs.twimg.com/profile_banners/3289201891/1592532582/1500x500');
+    background-size: 100%;
+}
+
+
+.user_profile_pic{
+    width: 12vw;
+    height: 12vw;
+    min-width: 130px;
+    min-height: 130px;
+    border-radius: 100%;
+    margin: -5% auto;
+    background-color: black;
+    border: solid;
+    border-color: #ebe7e2;
+    border-width: 0.5vw;
+    background-image: url('/src/assets/LOKE.PNG');
+    background-size: 100%;
+}
+
+.user_info{
+    width: 30%;
+    min-width: 350px;
+    height: 25vh;
+    margin: 10vh auto;
+    text-align: center;
+    margin-bottom: -8vh;
+}
+
+.user_info h2{
+    opacity: 0.5;
+    font-size: 25px;
+}
+
+.user_info .edit_button{
+    margin: auto;
+    width: 200px;
+    background-color: #7769cd;
+    color: white;
+    border-radius: 25px;
+}
+
+.user_info p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1000px)  {
+    .user_banner_wrap{
+        width: 300vw;
+        height: 20vh;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+} */

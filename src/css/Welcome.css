@@ -1,0 +1,401 @@
+body{
+    overflow-x: hidden !important;
+    width: 100vw !important;
+}
+
+
+#title_outside{
+    z-index: 25 !important;
+    font-family: 'Noto Sans', sans-serif;   
+    position: absolute;
+    margin: auto;
+    z-index: 1000;
+    color: black;
+    transition: 0.5s;
+    top: 90vh;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  #title_outside{
+    margin-top: 1%;
+  }
+  
+  #title_outside h1{
+    font-family: 'Rampart One', cursive;
+    font-weight: 600;
+    font-size: 8vh;
+    color: #594e9a;
+  }
+  
+  #title_outside p{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 3vh;
+    color: #594e9a;
+  }
+
+  #buttons{
+    margin-top: 3vh;
+  }
+  
+  #button_login{
+    color: white;
+    transition: 0.5s;
+    width: 80px !important;
+  }
+  
+  #button_signin{
+    color: white;
+    transition: 0.5s;
+    width: 80px !important;
+  }
+  
+  
+  #buttons :hover{
+    background-color: white;
+    border: solid #594e9a 1px;
+    color: #594e9a;
+  }
+
+
+.ScriptTop {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    font-size: 0.69em;
+    font-weight: 600;
+    line-height: 2.2;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* To Navigation Style 1*/
+.ScriptTop ul {
+    margin: 24px 0;
+    padding: 0;
+    text-align: left;
+}
+.ScriptTop li{
+	list-style:none;	
+	display:inline-block;
+}
+.ScriptTop li a {
+    background: #6a4aed none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.ScriptTop li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+
+/* ******************************************************
+	Script Header
+*********************************************************/
+
+.ScriptHeader {
+    float: left;
+    width: 100%;
+    padding: 2em 0;
+}
+.rt-heading {
+    margin: 0 auto;
+	text-align:center;
+}
+.Scriptcontent{
+	line-height:28px;	
+}
+.ScriptHeader h1{
+	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+    color: #6a4aed;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+
+}
+.ScriptHeader h2 {
+    color: #312c8f;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0 0;
+    line-height: normal;
+
+}
+.ScriptHeader h1 span {
+    display: block;
+    padding: 0;
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 5px;
+
+}
+.ScriptHeader span {
+    display: block;
+    padding: 0;
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+
+
+
+/* ******************************************************
+	Live Demo
+*********************************************************/
+
+
+
+
+
+/* ******************************************************
+	Responsive Grids
+*********************************************************/
+
+.rt-container {
+	margin: 0 auto;
+	padding-left:12px;
+	padding-right:12px;
+}
+.rt-row:before, .rt-row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.rt-row:after {
+  clear: both;
+}
+[class^="col-rt-"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  padding: 0 15px;
+  min-height: 1px;
+  position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .rt-container {
+    width: 750px;
+  }
+  [class^="col-rt-"] {
+    float: left;
+    width: 49.9999999999%;
+  }
+  .col-rt-6, .col-rt-12 {
+    width: 100%;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+	.rt-container {
+		width: 1170px;
+	}
+	.col-rt-1 {
+		width:16.6%;
+	}
+	.col-rt-2 {
+		width:30.33%;
+	}
+	.col-rt-3 {
+		width:50%;
+	}
+	.col-rt-4 {
+		width: 67.664%;
+	}
+	.col-rt-5 {
+		width: 83.33%;
+	}
+	
+
+}
+
+@media only screen and (min-width:240px) and (max-width: 768px){
+	 .ScriptTop h1, .ScriptTop ul {
+		text-align: center;
+	}
+	.ScriptTop h1{
+		margin-top:0;
+		margin-bottom:15px;
+	}
+	.ScriptTop ul{
+		 margin-top:12px;		
+	}
+	
+	.ScriptHeader h1,
+	.ScriptHeader h2, 
+	.scriptnav ul{
+		text-align:center;	
+	}
+	.scriptnav ul{
+		 margin-top:12px;		
+	}
+	#float-right{
+		float:none;	
+	}
+	
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  transition: 1s;
+  z-index: 50;
+}
+.slide > div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  animation: slide 25s infinite;
+  opacity: 0;
+}
+.slide > div:nth-child(2) {
+  animation-delay: 5s;
+}
+.slide > div:nth-child(3) {
+  animation-delay: 10s;
+}
+.slide > div:nth-child(4) {
+  animation-delay: 15s;
+}
+.slide > div:nth-child(5) {
+  animation-delay: 20s;
+}
+
+@keyframes slide {
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.1);
+  }
+}
+
+.slide > div:nth-child(1){
+  background-position: center;
+}
+
+#slide_one {
+  background-image:url(/src/assets/placeholder_banner.webp)
+}
+#slide_two {
+  background-image:url(/src/assets/placeholder_banner2.webp)
+}
+#slide_three{
+  background-image:url(/src/assets/placeholder_banner3.webp)
+}
+
+#slide_four {
+  background-image:url(/src/assets/placeholder_banner.webp)
+}
+
+#slide_five {
+  background-image:url(/src/assets/placeholder_banner3.webp)
+}
+
+
+/* ======================
+====================== */
+
+
+#loadingscreen{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #594e9a;
+  z-index: 1000 !important;
+  transition: 5s;
+  font-family: 'Rampart One', cursive;
+}
+
+#loadingscreentwo{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3b3466;
+  z-index: 900 !important;
+  transition: 5s;
+}
+
+@keyframes bounce {
+  100% {
+    top: 0.01px;
+  }
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    top: 0.01px;
+  } 
+}
+
+.loadingscreentext{
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin: 1vh;
+}
+
+.loadingscreentext {
+  position: relative;
+  top: 2vh;
+  display: inline-block;
+  animation: bounce 0.3s ease infinite alternate;
+  -webkit-animation: bounce 0.3s ease infinite alternate;
+  font-size: 300%;
+  color: #fff;
+
+}
+
+.loadingscreentext:nth-child(2) {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+.loadingscreentext:nth-child(3) {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+.loadingscreentext:nth-child(4) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+.loadingscreentext:nth-child(5) {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}

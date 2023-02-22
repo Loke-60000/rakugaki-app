@@ -1,0 +1,28 @@
+.desktopnav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: absolute;
+
+    background: rgba( 119, 104, 205, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19px );
+    -webkit-backdrop-filter: blur( 19px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );    
+    height: 70vh;
+    margin-top: 18vh;
+    margin-right: 1vw;
+    position: fixed;
+    padding: 3vh;
+}
+
+#icon_bis{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}

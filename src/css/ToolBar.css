@@ -1,0 +1,74 @@
+.Tools{
+    z-index: 1000!important;
+    height: 10%!important;
+    padding: 0.5%!important;
+    border-radius: 10px!important;
+    position: fixed!important;
+    bottom: -5%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    overflow: hidden!important;
+    display: flex!important;
+    background: rgba( 119, 105, 205, 0.9 )!important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;
+    backdrop-filter: blur( 0px )!important;
+    -webkit-backdrop-filter: blur( 0px )!important;
+    border-radius: 10px!important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )!important;
+}
+
+
+#link{
+    height: 100px!important;
+    width: 100px!important;
+}
+
+#profile{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )!important;backdrop-filter: blur( 4px )!important;-webkit-backdrop-filter: blur( 4px )!important;border-radius: 10px!important;border: 1px solid rgba( 255, 255, 255, 0.18 )!important; 
+    border-radius:100px!important;
+    width:70px!important;
+    margin-right: 15px!important;
+    border-radius: 100%!important;
+    filter: invert(1) !important;
+    aspect-ratio: initial!important;
+}
+.Tools button{
+    margin: 0  2% 0% 2%!important;
+    background-color: transparent!important;
+    border: none!important;
+    filter: invert(1)!important;
+}
+
+
+.Tools button:{
+    border-color: black!important;
+    background: #889632!important;
+    box-shadow: 0 8px 32px 0  #e9ddaf!important;
+    backdrop-filter: blur( 10.5px )!important;
+    -webkit-backdrop-filter: blur( 10.5px )!important;
+    border-radius: 10px!important;
+    border: 1px solid #c5b9aa!important;
+    scale: 0.8!important;
+    transition: 0.01s!important;
+}
+
+@media only screen and (max-width: 600px)  {
+    .Tools{
+        width: 85%!important;
+        height: 9%!important;
+    }
+
+    #link{
+        height: 100px!important;
+        width: 100px!important;
+    }
+}
+
+@media only screen and (min-width: 600px)  {
+    .Tools{
+        width: 25%!important;
+        max-width: 35%!important;
+        height: 10%!important;
+    }
+    
+}

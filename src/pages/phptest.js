@@ -3,8 +3,7 @@ import '../css/phptest.css';
 import Register from "../Components/register";
 import Login from "../Components/login";
 import NavBanner from "../Components/NavBanner";
-
-
+import logo from '../assets/logo.svg';
 function Testphp() {
   
     return (
@@ -20,6 +19,9 @@ function Testphp() {
                 <div className="hazard-background p-5">
 
                 </div>
+                <a href="http://www.google.com">
+                   <img src={logo} />
+                </a>
             </>
     );
 }
